@@ -1,0 +1,7 @@
+# Secrets: never commit real keys (.env.example holds placeholders only)
+.env
+.env.*
+!.env.example
+
+node_modules
+*.log
